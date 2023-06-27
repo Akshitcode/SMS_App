@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SMSApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tools:targetApi="1">#0D27B8</item>
+    </style>
+
+    <style name="Theme.SMSApp" parent="Base.Theme.SMSApp" />
+    <style name="Base.Theme.UpdatedTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4D63F3</item>
+        <item name="colorPrimaryVariant">#8796F6</item>
+        <item name="colorOnPrimary">#6176F8</item>
+        <item name="android:statusBarColor" tools:targetApi="1">#0D27B8</item>
+    </style>
+</resources>
